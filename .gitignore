@@ -1,0 +1,33 @@
+# Bỏ qua thư mục node_modules trong cả client và server
+client/node_modules/
+server/node_modules/
+
+# Bỏ qua các tệp lockfile của trình quản lý gói
+client/yarn.lock
+server/yarn.lock
+client/package-lock.json
+server/package-lock.json
+
+# Bỏ qua các tệp môi trường
+client/.env
+server/.env
+
+# Bỏ qua các thư mục build/output
+client/dist/
+server/dist/
+client/build/
+server/build/
+
+# Bỏ qua các tệp log
+*.log
+
+# Bỏ qua các tệp tạm thời
+*.tmp
+
+# Bỏ qua các tệp hệ điều hành
+.DS_Store
+Thumbs.db
+
+# Bỏ qua các tệp cấu hình IDE/Editor
+.vscode/
+.idea/
